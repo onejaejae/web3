@@ -1,44 +1,80 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>쇼핑몰 사이트 정리</title>
-    <meta charset = "utf-8">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160762966-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<head>
+  <meta charset="UTF-8">
+  <title>패션링크</title>
+  <style>
+    span{
+      font-size:13px;
+      color:green;
+    }
 
-  gtag('config', 'UA-160762966-1');
-</script>
-  </head>
-  <body>
-    <h1>목록</h1>
-    <ol>
-      <li><a href = "1.html">쇼핑몰</a></li><br>
-      <li><a href = "6.html">짱구대디</a></li><br>
-    </ol>
-    <div id="disqus_thread"></div>
-<script>
+    h3{
+      margin-left:37px;
+    }
 
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://web1-cfxkpi2jwf.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    #grid{
+      border-bottom:2px solid black;
+      text-align:center;
+      display:grid;
+      grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+      padding:10px;
 
-  </body>
+    }
+    body{
+       margin:0;
+
+     }
+     #grid a{
+
+        color:black;
+        text-decoration:none;
+        font-size:20px;
+
+     }
+     ul{
+       list-style:none;
+     }
+     ul a{
+
+       color:blue;
+     }
+    h1{
+      font-size : 45px;
+      border-bottom : 2px solid black;
+      text-align:left;
+      margin:0;
+      padding : 20px;
+    }
+  </style>
+</head>
+<body>
+ <h1>패션링크</h1>
+  <div id ="grid">
+    <strong><a href="" style ="color:gray">미니멀 맛집</a></strong>
+    <a href="1.html">SPA브랜드</a>
+    <a href="2.html">라이더 맛집</a>
+    <a href="3.html">슬랙스 맛집</a>
+    <a href="4.html">청바지 맛집</a>
+    <a href="5.html">게시판</a>
+  </div>
+  <h3>미니멀 맛집 모음</h3>
+  <ul>
+    <li><a href = "http://lmood.co.kr/" target = "_blank">엘무드 바로가기</a><span>http://lmood.co.kr/</span></li><br>
+    <li><a href = "http://www.coor.kr/" target = "_blank">쿠어 바로가기</a><span>http://www.coor.kr/</span></li><br>
+    <li><a href = "https://tonywack.com/" target = "_blank">토니웩 바로가기</a><span>https://tonywack.com/</span></li><br>
+    <li><a href = "http://zavanas.com/" target = "_blank">자바나스 바로가기</a><span>http://zavanas.com/</span></li><br>
+    <li><a href = "http://insilence.co.kr/" target = "_blank">인사일런스 바로가기</a><span>http://insilence.co.kr/</span></li><br>
+    <li><a href = "https://mngu.co.kr/" target = "_blank">MNGU 바로가기</a><span>https://mngu.co.kr/</span></li><br>
+    <li><a href = "http://www.personal-pack.com/" target = "_blank">퍼스널팩 바로가기</a><span>http://www.personal-pack.com/</span></li><br>
+    <li><a href = "http://m.u-ping.co.kr/index.html" target = "_blank">유핑 바로가기</a><span>http://m.u-ping.co.kr/index.html</span></li><br>
+    <li><a href = "https://leire.co.kr/" target = "_blank">르아르 바로가기</a><span>https://leire.co.kr/</span></li><br>
+    <li><a href = "http://www.thet-shirtmuseum.com/" target = "_blank">더티뮤 바로가기</a><span>http://www.thet-shirtmuseum.com/</span></li><br>
+    <li><a href = " https://label-archive.com/" target = "_blank">라벨 아카이브 바로가기</a><span> https://label-archive.com/</span></li><br>
+    <li><a href = " http://chrischristy.com/" target = "_blank">크리스 크리스티 바로가기</a><span> http://chrischristy.com/</span></li><br>
+    <li><a href = " http://alors.kr/" target = "_blank">알로스 바로가기</a><span> http://alors.kr/</span></li><br>
+    <li><a href = "https://www.afterpray.com/" target = "_blank">애프터 프레이 바로가기</a><span>https://www.afterpray.com/</span></li><br>
+    <li><a href = "https://obscura-store.com/shop#1" target = "_blank">유스 바로가기</a><span>https://obscura-store.com/shop#1</span></li><br>
+  </ul>
+</body>
 </html>

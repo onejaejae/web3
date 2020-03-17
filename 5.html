@@ -1,32 +1,96 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>쇼핑몰 사이트 정리</title>
-    <meta charset = "utf-8">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160762966-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<head>
+  <meta charset="UTF-8">
+  <title>패션링크</title>
+  <style>
+    span{
+      font-size:13px;
+      color:green;
+    }
 
-  gtag('config', 'UA-160762966-1');
-</script>
-  </head>
-  <body>
-    <h1>하의 맛집</h1>
-    <h3>슬랙스<h3>
-    <ol>
-      <li><a href = "https://www.concepts1one.co.kr/" target = "_blank">컨셉원 바로가기</a></li><br>
-      <li><a href = "http://bylegacy.co.kr/" target = "_blank">레가시 바로가기</a></li><br>
-      <li><a href = "https://store.musinsa.com/app/brand/goods_list/musinsastandard" target = "_blank">무신사스탠다드 바로가기</a></li><br>
-    </ol>
-    <h3>청바지<h3>
-      <ol>
-        <li><a href = "http://fatalism.co.kr/" target = "_blank">페이탈리즘 바로가기</a></li><br>
-        <li><a href = "https://piece-worker.com/" target = "_blank">피스워커 바로가기</a></li><br>
-        <li><a href = "https://plac-official.com/" target = "_blank">플랙진 바로가기</a></li><br>
-        <li><a href = "http://modnine.com/" target = "_blank">모드나인  바로가기</a></li><br>
-      </ol>
-  </body>
+    h3{
+      margin-left:37px;
+    }
+
+    #grid{
+      border-bottom:2px solid black;
+      text-align:center;
+      display:grid;
+      grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+      padding:10px;
+
+    }
+    body{
+       margin:0;
+
+     }
+     #grid a{
+
+        color:black;
+        text-decoration:none;
+        font-size:20px;
+
+     }
+     ul{
+       list-style:none;
+     }
+     ul a{
+
+       color:blue;
+     }
+    h1{
+      font-size : 45px;
+      border-bottom : 2px solid black;
+      text-align:left;
+      margin:0;
+      padding : 20px;
+    }
+  </style>
+</head>
+<body>
+
+ <h1>패션링크</h1>
+  <div id ="grid">
+    <a href="index.html">미니멀 맛집</a>
+    <a href="1.html">SPA브랜드</a>
+    <a href="2.html">라이더 맛집</a>
+    <a href="3.html">슬랙스 맛집</a>
+    <a href="4.html">청바지 맛집</a>
+    <strong><a href="5.html" style="color:gray">게시판</a></strong>
+  </div>
+  <h3>마스크 구매 사이트</h3>
+    <ul>
+      <li><a href="https://smartstore.naver.com/sangkong" target="_blank">상공양행 바로가기</a></li><br>
+      <li><a href="https://smartstore.naver.com/aer-shop/products/4722827602" target="_blank">아에르 바로가기</a></li><br>
+      <li><a href="https://smartstore.naver.com/mfbshop/products/4072435942" target="_blank">닥터퓨리 바로가기</a></li><br>
+      <li><a href="https://smartstore.naver.com/korea-mask" target="_blank">국대마스크 바로가기</a></li><br>
+      <li><a href="https://smartstore.naver.com/gonggami" target="_blank">공감네트웍스 바로가기</a></li><br>
+      <li><a href="https://smartstore.naver.com/etiqa" target="_blank">에티카 바로가기</a></li><br>
+      <li><a href="https://smartstore.naver.com/kumaelectron" target="_blank">금아멘탈 바로가기</a></li><br>
+    </ul>
+
+  <h3>게시판(추가 할 브랜드 남겨주세요)</h3>
+  <div id="disqus_thread"></div>
+  <script>
+
+  /**
+  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+  *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+  /*
+  var disqus_config = function () {
+  this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+  this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+  };
+  */
+  (function() { // DON'T EDIT BELOW THIS LINE
+  var d = document, s = d.createElement('script');
+  s.src = 'https://paesyeonringkeu.disqus.com/embed.js';
+  s.setAttribute('data-timestamp', +new Date());
+  (d.head || d.body).appendChild(s);
+  })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+</body>
 </html>
