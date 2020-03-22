@@ -1,0 +1,52 @@
+span{
+  font-size:13px;
+  color:green;
+  font-family:Arial;
+}
+
+h3{
+  margin-left:37px;
+  font-family:Arial;
+}
+
+#grid{
+  border-bottom:2px solid black;
+  text-align:center;
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding:10px;
+  backgroubd_color
+
+}
+body{
+   margin:0;
+ }
+ #grid a{
+
+    color:black;
+    text-decoration:none;
+    font-size:20px;
+    font-family:Arial;
+
+ }
+ #grid a:hover{
+
+   color:gray;
+ }
+ ul{
+   list-style:none;
+
+ }
+ ul a{
+
+   color:blue;
+   font-family:Arial;
+ }
+h1{
+  font-size : 45px;
+  border-bottom : 2px solid black;
+  text-align:left;
+  margin:0;
+  padding : 20px;
+  font-family:Arial;
+}
