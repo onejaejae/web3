@@ -1,12 +1,12 @@
 span{
   font-size:13px;
   color:green;
-  font-family:Arial;
+  font-family:'MapoPeacefull';
 }
 
 h3{
   margin-left:37px;
-  font-family:Arial;
+  font-family:'MapoPeacefull';
 }
 
 #grid{
@@ -26,7 +26,7 @@ body{
     color:black;
     text-decoration:none;
     font-size:20px;
-    font-family:Arial;
+    font-family:'MapoPeacefull';
 
  }
  #grid a:hover{
@@ -40,7 +40,7 @@ body{
  ul a{
 
    color:blue;
-   font-family:Arial;
+   font-family:'MapoPeacefull';
  }
 h1{
   font-size : 45px;
@@ -48,5 +48,5 @@ h1{
   text-align:left;
   margin:0;
   padding : 20px;
-  font-family:Arial;
+  font-family:'MapoPeacefull';
 }
