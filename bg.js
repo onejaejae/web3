@@ -1,5 +1,5 @@
 const body = document.querySelector("body");
-const IMAGE_COUNT =8;
+const IMAGE_COUNT =7;
 
 function paintBg(num){
     const image = new Image();
